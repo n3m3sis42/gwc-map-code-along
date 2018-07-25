@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
 }
 
 html, body {
@@ -13,7 +13,7 @@ h1 {
 }
 
 header {
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 header, footer {
@@ -23,4 +23,15 @@ header, footer {
 #map {
   height: 100%;
   margin-bottom: 12px;
+}
+
+#floating-panel {
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Arial','Helvetica','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
 }
