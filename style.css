@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  margin-bottom: 12px;
+}
+
+header, footer {
+  padding: 20px;
+}
+
+#map {
+  height: 100%;
+  margin-bottom: 12px;
+}
